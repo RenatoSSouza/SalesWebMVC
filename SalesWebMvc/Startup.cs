@@ -60,7 +60,7 @@ namespace SalesWebMvc
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                seedingService.Seed();
+                //seedingService.Seed();
             }
             else
             {
